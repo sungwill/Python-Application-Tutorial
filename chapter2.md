@@ -17,8 +17,6 @@ M = 5.972 * 10^24
 
 g = (G * m * M) / height^2
 
-Use python MATH FUNCTIONS!
-
 *** =hint
 
 *** =pre_exercise_code
@@ -48,6 +46,6 @@ def gForce(height):
 
 *** =sct
 ```{python}
-
+check_object('G').has_equal_value()
 success_msg("Great work!")
 ```
