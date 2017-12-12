@@ -47,6 +47,7 @@ def gForce(height):
 *** =sct
 ```{python}
 ##test_object("G")
+test_output("g")
 success_msg("Great work!")
 ```
 
@@ -56,7 +57,7 @@ success_msg("Great work!")
 
 
 *** =instructions
-Jack happens to have a pendulum in his pocket, so he wants to measure the time needed for the pendulum to complete 1 period. Please create a function called timePeriod that takes in 2 parameters: an integer length and an integer height. Then, use the equation 2 * π * sqrt of length / gravitational force to return the value of the time period. Call the gForce function to find the gravitational force.
+While at the same location, Jack happens to have a pendulum in his pocket, so he wants to measure the time needed for the pendulum to complete 1 period. Please create a function called timePeriod that takes in 2 parameters: an integer length and an integer height. Then, use the equation 2 * π * sqrt of length / gravitational force to return the value of the time period. Call the gForce function to find the gravitational force.
 
 *** =hint
 
