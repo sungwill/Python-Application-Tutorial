@@ -26,16 +26,16 @@ Use python MATH FUNCTIONS!
 G = 6.674 * math.pow(10, -11)
 m = 8
 M = 5.972 * math.pow(10, 24)
-
+g = (G * m * M) / math.pow(height, 2)
 ```
 
 *** =sample_code
 ```{python}
 def gForce(height):
-    G =
+    G = ___
     m = 8
-    M =
-    g =
+    M = ___
+    g = ___
     return g
 ```
 
