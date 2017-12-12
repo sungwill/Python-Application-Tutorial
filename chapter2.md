@@ -48,7 +48,6 @@ def gForce(height):
 
 *** =sct
 ```{python}
-test_function("math.pow",
-              incorrect_msg = "You didn't use `plt.scatter()` correctly, have another look at the instructions.")
+check_object('G').has_equal_value()
 success_msg("Great work!")
 ```
