@@ -47,7 +47,11 @@ def gForce(height):
 *** =sct
 ```{python}
 ##test_object("G")
-test_output("g")
+test_object("G",
+            eq_condition="equal",
+            do_eval=True,
+            undefined_msg = "Don't remove the predefined `G` object.",
+            incorrect_msg = "Invalid value for 'G', please check again.")
 success_msg("Great work!")
 ```
 
