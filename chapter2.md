@@ -48,6 +48,6 @@ def gForce(height):
 
 *** =sct
 ```{python}
-check_object('G').has_equal_value()
+test_object("G")
 success_msg("Great work!")
 ```
