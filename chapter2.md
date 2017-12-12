@@ -26,7 +26,7 @@ Use python MATH FUNCTIONS!
 G = 6.674 * math.pow(10, -11)
 m = 8
 M = 5.972 * math.pow(10, 24)
-g = (G * m * M) / math.pow(height, 2)
+
 ```
 
 *** =sample_code
