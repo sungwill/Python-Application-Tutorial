@@ -1,5 +1,5 @@
 ---
-title       : Pendulum Time Period
+title       : Chapter 3
 description : Insert the chapter description here
 
 --- type:NormalExercise lang:python xp:100 skills:2 key:c6434d6e6b
