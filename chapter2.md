@@ -48,6 +48,7 @@ def gForce(height):
 
 *** =sct
 ```{python}
-test_object("M")
+test_object("G",
+            incorrect_msg = "Invalid value for G, please check again.")
 success_msg("Great work!")
 ```
