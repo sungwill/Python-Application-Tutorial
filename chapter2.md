@@ -6,8 +6,7 @@ description : Insert the chapter description here
 ## Gravitational Force
 
 
-##*** =instructions
-`@instructions`
+*** =instructions
 Jack is now standing at an altitude anywhere on Earth, where gravitational force is not 9.81 m/s^2. Please create a function called gForce that takes an integer, height, in its parameter. Then, use the equation (G * m * M) / height^2 to return the value of g.
 
 G = 6.674 * 10^-11
@@ -20,17 +19,14 @@ g = (G * m * M) / height^2
 
 Use python MATH FUNCTIONS!
 
-##*** =hint
-`@hint`
+*** =hint
 
-##*** =pre_exercise_code
-`@pre_exercise_code`
+*** =pre_exercise_code
 ```{python}
 
 ```
 
-##*** =sample_code
-`@sample_code`
+*** =sample_code
 ```{python}
 def gForce(height):
     G = ___
@@ -40,8 +36,7 @@ def gForce(height):
     return g
 ```
 
-##*** =solution
-`@solution`
+*** =solution
 ```{python}
 def gForce(height):
     G = 6.674 * math.pow(10, -11)
@@ -51,8 +46,7 @@ def gForce(height):
     return g
 ```
 
-##*** =sct
-`@sct`
+*** =sct
 ```{python}
 
 success_msg("Great work!")
