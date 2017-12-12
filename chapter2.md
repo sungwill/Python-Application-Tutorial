@@ -23,7 +23,7 @@ Use python MATH FUNCTIONS!
 
 *** =pre_exercise_code
 ```{python}
-M = 5.972 * math.pow(10, 24)
+
 ```
 
 *** =sample_code
