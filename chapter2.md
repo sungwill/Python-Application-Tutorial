@@ -106,6 +106,6 @@ def timePeriod(length, height):
 *** =sct
 ```{python}
 test_student_typed("math.pi")
-test_student_typed("math.sqrt(length/g)")
+test_student_typed("math.sqrt(length/gForce(height))")
 success_msg("Great Work!")
 ```
