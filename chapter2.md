@@ -58,12 +58,18 @@ success_msg("Great work!")
 
 
 *** =instructions
-While at the same location, Jack happens to have a pendulum in his pocket, so he wants to measure the time needed for the pendulum to complete 1 period. Please create a function called timePeriod that takes in 2 parameters: an integer length and an integer height. Then, use the equation T = 2π * (length / g)^(1/2)  to return the value of T.
+While at the same location, Jack happens to have a pendulum in his pocket, so he wants to measure the time needed for the pendulum to complete 1 period. Please create a function called timePeriod that takes in 2 parameters: an integer length and an integer height. Then, use the equation T = 2π * √(length / g)  to return the value of T in timePeriod.
 
-T = 2π * (length / g)^(1/2) 
+T = 2π * √(length / g)
+
+√ = square root
+
+Must use python math functions!
 
 *** =hint
 Call the gForce function to find the value of g.
+Use math.pi for π
+Use math.sqrt(x) for √(length / g)
 *** =pre_exercise_code
 ```{python}
 
