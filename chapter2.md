@@ -48,7 +48,7 @@ def gForce(height):
 ```{python}
 check_function_def('gForce')
 test_object('G')
-
+test_funtion_def("gForce")
 success_msg("Great work!")
 ```
 
