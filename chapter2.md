@@ -46,9 +46,7 @@ def gForce(height):
 
 *** =sct
 ```{python}
-check_function_def('gForce')
 #test_object('G')
-#test_funtion_def("gForce")
 success_msg("Great work!")
 ```
 
@@ -106,7 +104,7 @@ def timePeriod(length, height):
 
 *** =sct
 ```{python}
-test_function("timePeriod")
+#test_function("timePeriod")
 test_student_typed("math.pi", pattern = False)
 test_student_typed("math.sqrt(length/gForce(height))", pattern = False)
 success_msg("Great Work!")
