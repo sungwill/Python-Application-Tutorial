@@ -26,7 +26,7 @@ g = (G * m * M) / height^2
 
 *** =sample_code
 ```{python}
-def gForce(height):
+def gForce(___):
     G = ___
     m = 8
     M = ___
@@ -78,6 +78,7 @@ def gForce(height):
     g = (G * m * M) / math.pow(height, 2)
     return g
     
+# Create the function timePeriod here
 ```
 
 *** =solution
