@@ -106,6 +106,6 @@ def timePeriod(length, height):
 ```{python}
 #test_function("timePeriod")
 test_student_typed("math.pi", pattern = False, not_typed_msg = "An important math function is missing.")
-test_student_typed("math.sqrt(length/gForce(height))", pattern = False, not_typed_msg = "An important math function is missing.")
+test_student_typed("math.sqrt", pattern = False, not_typed_msg = "An important math function is missing.")
 success_msg("Great Work!")
 ```
