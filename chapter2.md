@@ -99,11 +99,13 @@ def gForce(height):
     return g
 
 def timePeriod(length, height):
-    T = 2π * (length / gForce(height))^(1/2)
-    return g
+    T = 2 * math.pi * math.sqrt(length/gForce(height))
+    return T
 ```
 
 *** =sct
 ```{python}
+test_student_typed("math.pi")
+test_student_typed("math.sqrt(length/g)")
 success_msg("Great Work!")
 ```
