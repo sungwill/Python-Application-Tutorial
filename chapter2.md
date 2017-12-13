@@ -58,7 +58,9 @@ success_msg("Great work!")
 
 
 *** =instructions
-While at the same location, Jack happens to have a pendulum in his pocket, so he wants to measure the time needed for the pendulum to complete 1 period. Please create a function called timePeriod that takes in 2 parameters: an integer length and an integer height. Then, use the equation 2 * π * sqrt of length / gravitational force to return the value of the time period. Call the gForce function to find the gravitational force.
+While at the same location, Jack happens to have a pendulum in his pocket, so he wants to measure the time needed for the pendulum to complete 1 period. Please create a function called timePeriod that takes in 2 parameters: an integer length and an integer height. Then, use the equation 2 * π * sqrt of length / gravitational force to return the value of T. Call the gForce function to find the gravitational force.
+
+T = 2π * (length / g)^(1/2) 
 
 *** =hint
 
@@ -69,12 +71,27 @@ While at the same location, Jack happens to have a pendulum in his pocket, so he
 
 *** =sample_code
 ```{python}
-
+def gForce(height):
+    G = 6.674 * math.pow(10, -11)
+    m = 8
+    M = 5.972 * math.pow(10, 24)
+    g = (G * m * M) / math.pow(height, 2)
+    return g
+    
 ```
 
 *** =solution
 ```{python}
+def gForce(height):
+    G = 6.674 * math.pow(10, -11)
+    m = 8
+    M = 5.972 * math.pow(10, 24)
+    g = (G * m * M) / math.pow(height, 2)
+    return g
 
+def timePeriod(length, height):
+    T = 2π * (length / gForce(height))^(1/2)
+    return g
 ```
 
 *** =sct
