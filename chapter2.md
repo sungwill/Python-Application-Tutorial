@@ -47,7 +47,7 @@ def gForce(height):
 *** =sct
 ```{python}
 check_function_def('gForce')
-test_object('G')
+check_object('G')
 
 success_msg("Great work!")
 ```
