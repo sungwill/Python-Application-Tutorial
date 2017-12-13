@@ -68,7 +68,9 @@ Must use python math functions!
 
 *** =hint
 Call the gForce function to find the value of g.
-Use math.pi for π
+
+Use math.pi for π.
+
 Use math.sqrt(x) for √(length / g)
 *** =pre_exercise_code
 ```{python}
