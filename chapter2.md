@@ -105,7 +105,7 @@ def timePeriod(length, height):
 *** =sct
 ```{python}
 #test_function("timePeriod")
-test_student_typed("math.pi", pattern = False)
-test_student_typed("math.sqrt(length/gForce(height))", pattern = False)
+test_student_typed("math.pi", pattern = False, not_typed_msg = "An important math function is missing.")
+test_student_typed("math.sqrt(length/gForce(height))", pattern = False, not_typed_msg = "An important math function is missing.")
 success_msg("Great Work!")
 ```
