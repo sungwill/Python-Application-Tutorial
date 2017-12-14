@@ -24,7 +24,7 @@ For example, 2**3 and math.pow(2, 3) both equal to 8.
 
 *** =pre_exercise_code
 ```{python}
-
+import math
 ```
 
 *** =sample_code
@@ -40,10 +40,10 @@ def gForce(___):
 *** =solution
 ```{python}
 def gForce(height):
-    G = 6.674 * pow(10, -11)
+    G = 6.674 * math.pow(10, -11)
     m = 8
-    M = 5.972 * pow(10, 24)
-    g = (G * m * M) / pow(height, 2)
+    M = 5.972 * math.pow(10, 24)
+    g = (G * m * M) / math.pow(height, 2)
     return g
 ```
 
@@ -78,7 +78,7 @@ Use math.sqrt(x) for √(length / g)
 
 *** =pre_exercise_code
 ```{python}
-
+import math
 ```
 
 *** =sample_code
