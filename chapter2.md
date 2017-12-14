@@ -40,8 +40,9 @@ def gForce(___):
 *** =solution
 ```{python}
 G = 6.674 * math.pow(10, -11)
+str = "hi"
 def gForce(height):
-    str = "hi"
+    
     m = 8
     M = 5.972 * math.pow(10, 24)
     g = (G * m * M) / math.pow(height, 2)
