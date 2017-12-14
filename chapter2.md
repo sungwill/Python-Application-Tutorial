@@ -49,8 +49,9 @@ def gForce(height):
 
 *** =sct
 ```{python}
-test_object("G")
-success_msg("Great work!")
+# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
+test_object("G", eq_condition="equal", do_eval=True, undefined_msg="Your string1 has not been defined", incorrect_msg="Your string1 is not initialized properly")
+test_object("g", eq_condition="equal", do_eval=True, undefined_msg="Your string2 has not been defined", incorrect_msg="Your string2 is not initialized properly")
 ```
 
 
