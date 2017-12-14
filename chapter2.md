@@ -40,6 +40,7 @@ def gForce(___):
 *** =solution
 ```{python}
 def gForce(height):
+    string1 = "hello"
     G = 6.674 * math.pow(10, -11)
     m = 8
     M = 5.972 * math.pow(10, 24)
@@ -50,8 +51,8 @@ def gForce(height):
 *** =sct
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
-test_object("G", eq_condition="equal", do_eval=True, undefined_msg="Your string1 has not been defined", incorrect_msg="Your string1 is not initialized properly")
-test_object("g", eq_condition="equal", do_eval=True, undefined_msg="Your string2 has not been defined", incorrect_msg="Your string2 is not initialized properly")
+test_object("string1", eq_condition="equal", do_eval=True, undefined_msg="Your string1 has not been defined", incorrect_msg="Your string1 is not initialized properly")
+#test_object("g", eq_condition="equal", do_eval=True, undefined_msg="Your string2 has not been defined", incorrect_msg="Your string2 is not initialized properly")
 ```
 
 
