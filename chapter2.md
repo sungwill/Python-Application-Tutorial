@@ -18,10 +18,13 @@ M = 5.972 * 10^24
 g = (G * m * M) / height^2
 
 *** =hint
+Power can be calculated with x1**x2 or math.pow(x1, x2).
+
+For example, 2**3 and math.pow(2, 3) both equal to 8.
 
 *** =pre_exercise_code
 ```{python}
-height = 500000
+
 ```
 
 *** =sample_code
@@ -71,6 +74,7 @@ Call the gForce function to find the value of g.
 Use math.pi for π.
 
 Use math.sqrt(x) for √(length / g)
+
 *** =pre_exercise_code
 ```{python}
 
