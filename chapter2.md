@@ -21,7 +21,7 @@ g = (G * m * M) / height^2
 
 *** =pre_exercise_code
 ```{python}
-
+height = 500000
 ```
 
 *** =sample_code
@@ -46,7 +46,7 @@ def gForce(height):
 
 *** =sct
 ```{python}
-test_object('G')
+test_object("G")
 success_msg("Great work!")
 ```
 
